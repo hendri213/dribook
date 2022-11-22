@@ -1,6 +1,30 @@
 import Vue from 'vue'
 import Unicon from 'vue-unicons/dist/vue-unicons-vue2.umd'
-import { uniSearch, uniEstate, uniVideo, uniStore, uniUsersAlt,  uniBasketball } from 'vue-unicons/dist/icons'
+import {
+  // navbar keft items  
+  uniSearch,
+  // navbar center items
+  uniEstate, 
+  uniVideo,
+  uniStore, 
+  uniUsersAlt,  
+  uniBasketball, 
+  // navbar right items
+  uniListUl, 
+  uniComment, 
+  uniBell } from 'vue-unicons/dist/icons'
 
-Unicon.add([uniSearch, uniEstate, uniVideo, uniStore, uniUsersAlt, uniBasketball])
+Unicon.add([
+  // navbar keft items  
+  uniSearch, 
+  // navbar center items
+  uniEstate, 
+  uniVideo, 
+  uniStore, 
+  uniUsersAlt, 
+  uniBasketball,
+  // navbar right items
+  uniListUl, 
+  uniComment, 
+  uniBell])
 Vue.use(Unicon)

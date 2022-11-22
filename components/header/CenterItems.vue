@@ -1,11 +1,11 @@
 <template>
-  <div class="grid grid-cols-5 gap-x-[5px]">
+  <nav class="grid grid-cols-5 gap-x-[5px]">
     <NuxtLink v-for="link in links" :key="link.icon" :to="link.url" class="box-center hover:bg-gray-600 rounded-lg">
         <client-only>
             <unicon :name="link.icon" :fill="$route.path === link.url ? '#9400FF' : 'white'"  />
         </client-only>
     </NuxtLink>
-  </div>
+  </nav>
 </template>
 
 <script>
