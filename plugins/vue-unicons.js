@@ -8,6 +8,7 @@ import {
   uniVideo,
   uniStore, 
   uniUsersAlt,  
+  uniUser,  
   uniBasketball, 
   // navbar right items
   uniListUl, 
@@ -19,9 +20,10 @@ Unicon.add([
   uniSearch, 
   // navbar center items
   uniEstate, 
-  uniVideo, 
+  uniVideo,   
   uniStore, 
   uniUsersAlt, 
+  uniUser, 
   uniBasketball,
   // navbar right items
   uniListUl, 
